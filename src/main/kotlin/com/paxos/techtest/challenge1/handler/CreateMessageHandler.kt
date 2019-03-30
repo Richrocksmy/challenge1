@@ -4,7 +4,7 @@ interface CreateMessageHandler {
     operator fun invoke(): String
 }
 
-class CreateMessageHandlerImpl() : CreateMessageHandler {
+class CreateMessageHandlerImpl : CreateMessageHandler {
 
     override fun invoke(): String {
         return "Create"

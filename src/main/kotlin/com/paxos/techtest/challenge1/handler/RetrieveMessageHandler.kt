@@ -4,7 +4,7 @@ interface RetrieveMessageHandler {
     operator fun invoke(): String
 }
 
-class RetrieveMessageHandlerImpl() : RetrieveMessageHandler {
+class RetrieveMessageHandlerImpl : RetrieveMessageHandler {
 
     override fun invoke(): String {
         return "retrieve"
