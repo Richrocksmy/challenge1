@@ -1,5 +1,5 @@
 package com.paxos.techtest.challenge1.domain
 
-data class Message(val digest: String, val message: String) {
+data class Message(val digest: String, val content: String) {
 
 }
