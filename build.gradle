@@ -18,7 +18,7 @@ dependencies {
 
     testCompile "org.mockito:mockito-junit-jupiter:2.25.1"
     testCompile 'com.willowtreeapps.assertk:assertk-jvm:0.13'
-    testCompile group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.14.0'
+    testCompile "org.http4k:http4k-client-okhttp:2.17.1"
 
 }
 
