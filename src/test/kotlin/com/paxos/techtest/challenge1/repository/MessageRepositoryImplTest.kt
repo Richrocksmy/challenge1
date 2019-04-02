@@ -3,7 +3,6 @@ package com.paxos.techtest.challenge1.repository
 import assertk.assertThat
 import assertk.assertions.isEqualTo
 import assertk.assertions.isNull
-import com.paxos.techtest.challenge1.domain.Message
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 

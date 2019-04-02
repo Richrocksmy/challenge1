@@ -5,8 +5,8 @@ import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.never
 import com.nhaarman.mockitokotlin2.verify
 import com.nhaarman.mockitokotlin2.whenever
-import com.paxos.techtest.challenge1.domain.Message
 import com.paxos.techtest.challenge1.filters.MessageAlreadyExistsException
+import com.paxos.techtest.challenge1.repository.Message
 import com.paxos.techtest.challenge1.repository.MessageRepository
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test

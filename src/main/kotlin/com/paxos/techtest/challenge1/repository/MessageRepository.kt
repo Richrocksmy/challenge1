@@ -1,7 +1,5 @@
 package com.paxos.techtest.challenge1.repository
 
-import com.paxos.techtest.challenge1.domain.Message
-
 interface MessageRepository {
     fun retrieve(digest: String): Message?
 
@@ -20,3 +18,5 @@ class MessageRepositoryImpl : MessageRepository {
         persistence[message.digest] = message
     }
 }
+
+data class Message(val digest: String, val content: String)

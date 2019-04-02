@@ -17,7 +17,7 @@ docker build -t service .
 Start the service:
 
 ```
-docker run -p 8080:8080 svc
+docker run -p 8080:8080 service
 ```
 
 ### Scaling

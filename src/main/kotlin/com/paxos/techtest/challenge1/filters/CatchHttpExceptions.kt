@@ -16,7 +16,7 @@ open class HttpException(val status: Status, message: String = status.descriptio
 class MessageAlreadyExistsException : HttpException(Status.CONFLICT, "The specified message already exists.")
 
 class MessageNotFoundException(digest: String) :
-    HttpException(Status.NOT_FOUND, "Message with $digest does not exist.")
+    HttpException(Status.NOT_FOUND, "Message with digest $digest does not exist.")
 
 object CatchHttpExceptions {
 

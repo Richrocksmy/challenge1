@@ -1,8 +1,8 @@
 package com.paxos.techtest.challenge1.handler
 
 import com.google.common.hash.Hashing
-import com.paxos.techtest.challenge1.domain.Message
 import com.paxos.techtest.challenge1.filters.MessageAlreadyExistsException
+import com.paxos.techtest.challenge1.repository.Message
 import com.paxos.techtest.challenge1.repository.MessageRepository
 import java.nio.charset.StandardCharsets
 

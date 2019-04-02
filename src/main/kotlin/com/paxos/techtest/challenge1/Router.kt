@@ -16,7 +16,7 @@ class Router (
     private val createMessageHandler: CreateMessageHandler,
     private val retrieveMessageHandler: RetrieveMessageHandler) {
 
-    private val DIGEST = "message"
+    private val DIGEST = "digest"
 
     private val digestLens = Path.string().of(DIGEST)
     private val createMessageLens = Body.auto<CreateMessageDto>().toLens()
