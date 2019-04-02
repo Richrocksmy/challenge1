@@ -3,12 +3,12 @@ package com.paxos.techtest.challenge1
 import com.paxos.techtest.challenge1.handler.CreateMessageHandlerImpl
 import com.paxos.techtest.challenge1.handler.RetrieveMessageHandlerImpl
 import com.paxos.techtest.challenge1.repository.MessageRepositoryImpl
+import org.http4k.server.ApacheServer
 import org.http4k.server.Http4kServer
-import org.http4k.server.Jetty
 import org.http4k.server.asServer
 
 
-fun main() {
+fun main(args : Array<String>) {
     Application().start().block()
 }
 
@@ -18,6 +18,6 @@ object Application {
         val messageRepository = MessageRepositoryImpl()
 
         return Router(CreateMessageHandlerImpl(messageRepository), RetrieveMessageHandlerImpl(messageRepository))()
-            .asServer(Jetty(8080))
+            .asServer(ApacheServer(8080))
     }
 }
