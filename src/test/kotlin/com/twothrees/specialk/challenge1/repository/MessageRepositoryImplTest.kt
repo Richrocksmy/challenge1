@@ -1,4 +1,4 @@
-package com.paxos.techtest.challenge1.repository
+package com.twothrees.specialk.challenge1.repository
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo

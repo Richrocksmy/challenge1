@@ -1,10 +1,10 @@
-package com.paxos.techtest.challenge1
+package com.twothrees.specialk.challenge1
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
-import com.paxos.techtest.challenge1.handler.CreateMessageDto
-import com.paxos.techtest.challenge1.handler.CreatedMessageDto
-import com.paxos.techtest.challenge1.handler.MessageDto
+import com.twothrees.specialk.challenge1.handler.CreateMessageDto
+import com.twothrees.specialk.challenge1.handler.CreatedMessageDto
+import com.twothrees.specialk.challenge1.handler.MessageDto
 import org.http4k.client.OkHttp
 import org.http4k.core.Method
 import org.http4k.core.Request

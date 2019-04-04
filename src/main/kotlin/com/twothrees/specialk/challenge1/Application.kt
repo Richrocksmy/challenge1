@@ -1,8 +1,8 @@
-package com.paxos.techtest.challenge1
+package com.twothrees.specialk.challenge1
 
-import com.paxos.techtest.challenge1.handler.CreateMessageHandlerImpl
-import com.paxos.techtest.challenge1.handler.RetrieveMessageHandlerImpl
-import com.paxos.techtest.challenge1.repository.MessageRepositoryImpl
+import com.twothrees.specialk.challenge1.handler.CreateMessageHandlerImpl
+import com.twothrees.specialk.challenge1.handler.RetrieveMessageHandlerImpl
+import com.twothrees.specialk.challenge1.repository.MessageRepositoryImpl
 import org.http4k.server.ApacheServer
 import org.http4k.server.Http4kServer
 import org.http4k.server.asServer

@@ -4,9 +4,9 @@ plugins {
     id "com.github.johnrengelman.shadow" version "4.0.2"
 }
 
-mainClassName='com.paxos.techtest.challenge1.ApplicationKt'
+mainClassName='com.twothrees.specialk.challenge1.ApplicationKt'
 
-group 'com.paxos.techtest'
+group 'com.twothrees.specialk'
 version '1.0-SNAPSHOT'
 
 repositories {

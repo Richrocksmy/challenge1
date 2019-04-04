@@ -1,7 +1,7 @@
-package com.paxos.techtest.challenge1;
+package com.twothrees.specialk.challenge1;
 
-import com.paxos.techtest.challenge1.filters.CatchHttpExceptions
-import com.paxos.techtest.challenge1.handler.*
+import com.twothrees.specialk.challenge1.filters.CatchHttpExceptions
+import com.twothrees.specialk.challenge1.handler.*
 import org.http4k.core.*
 import org.http4k.core.Status.Companion.OK
 import org.http4k.filter.ServerFilters
@@ -14,7 +14,8 @@ import org.http4k.routing.routes
 
 class Router (
     private val createMessageHandler: CreateMessageHandler,
-    private val retrieveMessageHandler: RetrieveMessageHandler) {
+    private val retrieveMessageHandler: RetrieveMessageHandler
+) {
 
     private val DIGEST = "digest"
 

@@ -1,7 +1,7 @@
-package com.paxos.techtest.challenge1.handler
+package com.twothrees.specialk.challenge1.handler
 
-import com.paxos.techtest.challenge1.filters.MessageNotFoundException
-import com.paxos.techtest.challenge1.repository.MessageRepository
+import com.twothrees.specialk.challenge1.filters.MessageNotFoundException
+import com.twothrees.specialk.challenge1.repository.MessageRepository
 
 interface RetrieveMessageHandler {
     operator fun invoke(digest: String): MessageDto

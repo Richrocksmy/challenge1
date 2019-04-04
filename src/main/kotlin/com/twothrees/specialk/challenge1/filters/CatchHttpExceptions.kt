@@ -1,4 +1,4 @@
-package com.paxos.techtest.challenge1.filters
+package com.twothrees.specialk.challenge1.filters
 
 import org.http4k.core.*
 import org.http4k.format.Jackson.auto
